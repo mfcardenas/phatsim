@@ -154,7 +154,7 @@ public class House {
 
                 PointLightShadowFilter slsf = new PointLightShadowFilter(app.getAssetManager(), SHADOWMAP_SIZE);
                 slsf.setLight(pl);
-                slsf.setShadowIntensity(0.6f);
+                slsf.setShadowIntensity(0.3f);
                 slsf.setEdgeFilteringMode(EdgeFilteringMode.Nearest);
                 slsf.setEnabled(true);
 
